@@ -363,7 +363,7 @@ def sync_user_schedules(config, unit_id, user_ids, first_page):
 
         getter = lambda *args, **kwargs: api_instance.post_workforcemanagement_managementunit_schedules_search(
             unit_id, body=body)
-        gen_schedules = fetch_one_page(getter, body, 'user_schedules', max_pages=1)
+        gen_schedules = fetch_all_records(getter, 'user_schedules', body, max_pages=1)
 
         stream_results(gen_schedules, handle_schedule(start_date_s), 'user_schedule', schemas.user_schedule,
                        ['start_date', 'user_id'], first_page)
