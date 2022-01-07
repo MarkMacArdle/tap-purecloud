@@ -1,3 +1,9 @@
+Any further work will now be done in [this repo](https://github.com/boughtbymany/tap-purecloud).
+
+
+-------------
+
+
 # tap-purecloud
 
 Author: Drew Banin (drew@fishtownanalytics.com)
