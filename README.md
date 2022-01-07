@@ -1,4 +1,4 @@
-Any further work will now be done in [this repo](https://github.com/boughtbymany/tap-purecloud).
+Any further work will now be done in [this company repo](https://github.com/boughtbymany/tap-purecloud) (forking links broken because I wasn't able to fork into the company Github org).
 
 
 -------------
